@@ -62,7 +62,7 @@ Je développe progressivement mes compétences dans les domaines suivants :
 
 **Autres technologies et concepts :**
 
-`Pandas` · `NumPy` · `XGBoost` · `LLM` · `RAG` · `LangChain` · `LangGraph` · `Pinecone` · `FastAPI` · `Streamlit` · `MLflow` · `Kafka` · `Apache Spark`
+`Pandas` · `NumPy` · `XGBoost` · `OpenCV` · `Keras` · `LLM` · `RAG` · `LangChain` · `LangGraph` · `Pinecone` · `FastAPI` · `Streamlit` · `MLflow` · `Kafka` · `Apache Spark` · `Hugging Face`
 
 ---
 
@@ -70,7 +70,9 @@ Je développe progressivement mes compétences dans les domaines suivants :
 
 <div align="center">
 
-*Quelques projets autour de l'Intelligence Artificielle, de la Data Science et du Deep Learning.*
+*Mes projets en Intelligence Artificielle, Data Science et Deep Learning.*
+<br/>
+<sub>Une partie de ces projets est académique ou professionnelle, donc privée. &nbsp;·&nbsp; ✅ Terminé &nbsp;·&nbsp; 🚧 En cours</sub>
 
 </div>
 
@@ -78,138 +80,237 @@ Je développe progressivement mes compétences dans les domaines suivants :
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-#### 🩺 Chatbot médical intelligent basé sur le RAG
+#### 🩺 1. Chatbot médical intelligent basé sur le RAG &nbsp;✅
 
-Assistant conversationnel capable de répondre à des questions à partir de documents médicaux PDF.
+**🎯 Objectif :** concevoir un assistant conversationnel capable d'interroger des documents médicaux PDF et de générer des réponses contextualisées à partir des informations récupérées.
 
-**Technologies :**
-`Python` `Gemini Embeddings` `Pinecone` `FastAPI` `Streamlit`
-
-**Fonctionnalités :**
-- Extraction et découpage des documents.
-- Génération d'embeddings.
+**⚙️ Fonctionnalités :**
+- Extraction et prétraitement des documents PDF.
+- Découpage des documents en chunks.
+- Génération d'embeddings avec Gemini.
 - Recherche sémantique avec Pinecone.
-- Réponses accompagnées de leurs sources.
+- Récupération du contexte pertinent.
+- Génération de réponses basées sur les documents.
+- API REST avec FastAPI.
+- Interface interactive avec Streamlit.
 
-</td>
-<td width="50%" valign="top">
-
-#### 🌱 Green Energy AI
-
-Analyse et prédiction de la production solaire, associées à la détection d'anomalies météorologiques dans la région d'Ouarzazate.
-
-**Technologies et pistes explorées :**
-`Python` `Open-Meteo` `Machine Learning` `Deep Learning` `Spark` `Kafka` `MLOps`
-
-**Objectifs :**
-- Préparation et analyse des données météorologiques.
-- Détection d'anomalies climatiques.
-- Prédiction de la production solaire.
-- Exploration d'une intégration d'agents IA.
-
-<sub>🚧 Projet en cours de développement</sub>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-#### 🌿 Détection des maladies des plantes
-
-Application de Deep Learning pour identifier les maladies des plantes à partir d'images, avec une piste d'intégration d'un système RAG agentique.
-
-**Technologies :**
-`Python` `Deep Learning` `Computer Vision` `RAG`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🏦 Détection de fraude bancaire
-
-Classification visant à identifier les transactions potentiellement frauduleuses, avec une orientation MLOps.
-
-**Technologies :**
-`Python` `Machine Learning` `Scikit-learn` `MLOps`
+**🧰 Technologies :**
+`Python` `Gemini` `Embeddings` `Pinecone` `FastAPI` `Streamlit` `RAG` `LLM`
 
 </td>
 </tr>
 </table>
 
-### 📊 Data Science & Machine Learning
-
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-#### 🌧️ Prédiction des précipitations
+#### 🌱 2. Green Energy AI – Prévision solaire & détection d'anomalies météorologiques &nbsp;🚧
 
-Modèles de Machine Learning pour prédire les précipitations à partir de données météorologiques.
+**🎯 Objectif :** développer une plateforme intelligente pour analyser les conditions météorologiques d'Ouarzazate, prévoir la production d'énergie solaire et détecter les anomalies météorologiques susceptibles d'affecter les performances énergétiques.
 
-**Technologies :**
-`Python` `Pandas` `Scikit-learn`
+**⚙️ Axes du projet :**
+- Collecte des données météorologiques via Open-Meteo.
+- Préparation et analyse des données historiques.
+- Prévision de la production solaire.
+- Détection des températures extrêmes.
+- Détection des vents inhabituels et de l'humidité anormale.
+- Identification des baisses inhabituelles d'irradiance.
+- Détection des anomalies de pression et de couverture nuageuse.
+- Exploration de modèles de Machine Learning et de Deep Learning.
+- Intégration envisagée d'agents IA pour l'analyse et l'interprétation des anomalies.
+- Exploration d'une architecture Big Data et MLOps.
 
-</td>
-<td width="50%" valign="top">
-
-#### 🧩 Prédiction de l'autisme
-
-Projet de classification basé sur le Machine Learning pour étudier les données et construire un modèle prédictif.
-
-**Technologies :**
-`Python` `Pandas` `Scikit-learn`
+**🧰 Technologies :**
+`Python` `Pandas` `NumPy` `Open-Meteo` `Machine Learning` `Deep Learning` `Anomaly Detection` `Agentic AI` `Apache Spark` `Apache Kafka`
 
 </td>
 </tr>
 </table>
 
-### 👁️ Computer Vision & Traitement du langage
-
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-#### 🚶 Détection de chutes
+#### 🌿 3. Plant Disease Detection – Deep Learning & Agentic RAG &nbsp;🚧
 
-Vision par ordinateur pour détecter les chutes et les personnes au sol à partir de données visuelles.
+**🎯 Objectif :** développer un système intelligent capable d'identifier les maladies des plantes à partir d'images et d'enrichir l'analyse grâce à un système de recherche documentaire et à des agents IA.
 
-**Technologies :**
-`Python` `Computer Vision` `Deep Learning`
+**⚙️ Axes du projet :**
+- Prétraitement et augmentation des images.
+- Classification des maladies des plantes.
+- Entraînement de modèles de Deep Learning.
+- Extraction et recherche de connaissances sur les maladies végétales.
+- Utilisation d'une architecture RAG.
+- Exploration d'agents IA pour organiser et enrichir les réponses.
 
-</td>
-<td width="50%" valign="top">
-
-#### 😷 Détection du port du masque
-
-Application de Deep Learning pour détecter le port ou l'absence du masque sur des images.
-
-**Technologies :**
-`Python` `Deep Learning` `Computer Vision`
+**🧰 Technologies :**
+`Python` `CNN` `TensorFlow` `PyTorch` `Computer Vision` `RAG` `LangChain` `AI Agents`
 
 </td>
 </tr>
+</table>
 
+### 👁️ Computer Vision & Deep Learning
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-#### 📝 Reconnaissance de manuscrits arabes
+#### 🚶 4. Fall Detection & Person-on-the-Ground Detection &nbsp;✅
 
-Reconnaissance optique de caractères (OCR) appliquée aux textes manuscrits arabes.
+**🎯 Objectif :** développer un système de vision par ordinateur permettant d'identifier les situations de chute et de détecter la présence de personnes au sol à partir d'images ou de flux vidéo.
 
-**Technologies :**
-`Python` `OCR` `Deep Learning`
+**⚙️ Axes du projet :**
+- Détection des personnes.
+- Analyse des postures corporelles.
+- Identification des situations de chute.
+- Détection des personnes au sol.
+- Analyse des séquences visuelles.
+- Exploration de modèles de Deep Learning.
+
+**🧰 Technologies :**
+`Python` `Computer Vision` `Deep Learning` `OpenCV` `CNN` `PyTorch` `TensorFlow`
 
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
 
-#### 🇲🇦 NER en darija marocaine
+<table>
+<tr>
+<td valign="top">
 
-Reconnaissance d'entités nommées (NER) adaptée à la darija marocaine.
+#### 📜 5. Arabic Handwritten Manuscript OCR &nbsp;✅
 
-**Technologies :**
-`Python` `NLP` `NER`
+**🎯 Objectif :** développer une solution OCR dédiée à la reconnaissance de textes manuscrits arabes et à la numérisation de documents historiques.
+
+**⚙️ Axes du projet :**
+- Prétraitement et amélioration des images.
+- Analyse des documents manuscrits.
+- Étude de la segmentation des lignes et des caractères.
+- Reconnaissance du texte manuscrit.
+- Transformation des documents images en texte numérique exploitable.
+
+**🧰 Technologies :**
+`Python` `OCR` `Image Processing` `Computer Vision` `Deep Learning` `CNN` `CRNN`
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+#### 😷 6. Face Mask Detection &nbsp;✅
+
+**🎯 Objectif :** développer un système de Deep Learning capable de détecter le port du masque facial à partir d'images.
+
+**⚙️ Axes du projet :**
+- Préparation et prétraitement des images.
+- Détection et classification des visages.
+- Classification des catégories « avec masque » et « sans masque ».
+- Entraînement et évaluation du modèle.
+- Analyse des performances de classification.
+
+**🧰 Technologies :**
+`Python` `TensorFlow` `Keras` `CNN` `OpenCV` `Deep Learning`
+
+</td>
+</tr>
+</table>
+
+### 🧠 Machine Learning & Predictive Analytics
+
+<table>
+<tr>
+<td valign="top">
+
+#### 💳 7. Banking Fraud Detection avec MLOps &nbsp;✅
+
+**🎯 Objectif :** concevoir un système de détection de transactions bancaires potentiellement frauduleuses à l'aide de modèles de Machine Learning, et explorer son industrialisation avec des pratiques MLOps.
+
+**⚙️ Axes du projet :**
+- Analyse exploratoire des transactions.
+- Prétraitement et feature engineering.
+- Gestion du déséquilibre des classes.
+- Entraînement et comparaison de modèles.
+- Évaluation avec des métriques adaptées à la détection de fraude.
+- Suivi des expériences et des modèles.
+- Exploration de pipelines CI/CD et du déploiement.
+
+**🧰 Technologies :**
+`Python` `Pandas` `Scikit-learn` `XGBoost` `MLflow` `Docker` `Git` `CI/CD`
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+#### 🌧️ 8. Rainfall Prediction &nbsp;✅
+
+**🎯 Objectif :** développer un modèle prédictif permettant d'estimer les précipitations à partir de données météorologiques.
+
+**⚙️ Axes du projet :**
+- Exploration et analyse des données.
+- Nettoyage et préparation des variables.
+- Feature engineering.
+- Entraînement de modèles de Machine Learning.
+- Évaluation et comparaison des performances.
+
+**🧰 Technologies :**
+`Python` `Pandas` `NumPy` `Scikit-learn` `Machine Learning`
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+#### 🧩 9. Autism Prediction &nbsp;✅
+
+**🎯 Objectif :** explorer les méthodes de Machine Learning appliquées à la classification de données associées à l'autisme.
+
+**⚙️ Axes du projet :**
+- Analyse exploratoire des données.
+- Prétraitement et sélection des caractéristiques.
+- Entraînement de modèles de classification.
+- Évaluation des performances.
+- Analyse des résultats et des limites des modèles.
+
+**🧰 Technologies :**
+`Python` `Pandas` `NumPy` `Scikit-learn` `Machine Learning`
+
+</td>
+</tr>
+</table>
+
+### 💬 Natural Language Processing
+
+<table>
+<tr>
+<td valign="top">
+
+#### 🇲🇦 10. Moroccan Darija NER – Reconnaissance d'entités nommées &nbsp;🚧
+
+**🎯 Objectif :** concevoir un système de reconnaissance d'entités nommées adapté à la darija marocaine.
+
+**⚙️ Axes du projet :**
+- Prétraitement et normalisation des textes en darija.
+- Analyse linguistique des données.
+- Identification des entités nommées.
+- Classification des entités selon leurs catégories.
+- Exploration de modèles NLP et Transformers.
+
+**🧰 Technologies :**
+`Python` `NLP` `NER` `Transformers` `Tokenization` `Hugging Face`
 
 </td>
 </tr>
@@ -219,19 +320,33 @@ Reconnaissance d'entités nommées (NER) adaptée à la darija marocaine.
 
 ## 💼 Expériences professionnelles
 
-<details>
-<summary><b>🤖 Stage en Intelligence Artificielle — BFS Consulting</b> | Juillet – Septembre 2026</summary>
+<details open>
+<summary><b>🤖 AI Engineering Intern — BFS Consulting</b> | Juillet – Septembre 2026</summary>
+<br/>
 
-- Participation à un travail d'optimisation d'un pipeline multi-agents.
-- Découverte et expérimentation de concepts liés aux architectures agentiques.
+Participation à un projet d'optimisation d'un pipeline multi-agents basé sur l'intelligence artificielle.
+
+- Contribution aux travaux d'optimisation du pipeline multi-agents.
+- Exploration de l'orchestration et de la coordination des agents IA.
+- Travail sur les workflows d'intelligence artificielle.
+- Participation à l'amélioration des processus d'exécution du pipeline.
+
+**Domaines :** `AI Engineering` `Agentic AI` `Multi-Agent Systems`
 
 </details>
 
-<details>
-<summary><b>📊 Stage en Data Analysis — Infitah Community</b> | Septembre – Novembre 2026</summary>
+<details open>
+<summary><b>📊 Data Analyst Intern — Infitah Community</b> | Septembre – Novembre 2026</summary>
+<br/>
 
-- Participation à des travaux d'analyse de données.
-- Exploration et exploitation de données pour en extraire des informations utiles.
+Participation à des activités d'analyse et d'exploitation de données.
+
+- Exploration et préparation des données.
+- Analyse des informations et identification de tendances.
+- Valorisation des données pour faciliter leur interprétation.
+- Contribution aux travaux de Data Analysis et de Business Intelligence.
+
+**Domaines :** `Data Analysis` `Data Science` `Business Intelligence`
 
 </details>
 
@@ -244,6 +359,8 @@ Reconnaissance d'entités nommées (NER) adaptée à la darija marocaine.
 Diplôme d'ingénieur — Informatique & Ingénierie des Données
 
 **5ᵉ année du cycle ingénieur**
+
+**Domaines étudiés :** Intelligence Artificielle · Machine Learning et Deep Learning · Data Science et Data Engineering · Big Data et systèmes distribués · Développement logiciel · Bases de données
 
 ---
 
